@@ -2,6 +2,39 @@
 # yarn lockfile v1
 
 
+"@material/animation@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.3.1.tgz#229de6927d0590d6d6b20157d778d264ef02229a"
+
+"@material/base@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@material/base/-/base-0.2.3.tgz#c4eb26b6d6e5840c254ad487588dc4f69b971f3e"
+
+"@material/checkbox@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@material/checkbox/-/checkbox-0.4.2.tgz#50c343daf0ba2265562dd8832b4f708a54b4dac4"
+  dependencies:
+    "@material/animation" "^0.3.1"
+    "@material/base" "^0.2.3"
+    "@material/ripple" "^0.8.2"
+    "@material/rtl" "^0.1.7"
+    "@material/theme" "^0.1.7"
+
+"@material/ripple@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.8.2.tgz#f1844079701121b3905fa4c47c83035dc10ed60a"
+  dependencies:
+    "@material/base" "^0.2.3"
+    "@material/theme" "^0.1.7"
+
+"@material/rtl@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.1.7.tgz#b38b771af183bcf34d643f600f17fc433698535a"
+
+"@material/theme@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.1.7.tgz#d94a7c5099feae9dc318c639802327c7ae82e872"
+
 abab@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -5000,7 +5033,7 @@ react-dev-utils@^3.1.0:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@15.6.1:
+react-dom@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.1.tgz#2cb0ed4191038e53c209eb3a79a23e2a4cf99470"
   dependencies:
@@ -5063,7 +5096,7 @@ react-scripts@1.0.11:
   optionalDependencies:
     fsevents "1.1.2"
 
-react@15.6.1:
+react@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
   dependencies:
