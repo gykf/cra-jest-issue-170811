@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MDCCheckboxFoundation from '@material/checkbox/foundation'
+import {MDCCheckboxFoundation} from '@material/checkbox/dist/mdc.checkbox'
+
+console.log(MDCCheckboxFoundation)
 
 class App extends Component {
   render() {
